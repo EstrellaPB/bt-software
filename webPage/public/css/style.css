@@ -1,0 +1,122 @@
+/* Your custom styles */
+.custom-blue{
+    background-color: #20a8ef !important;
+}
+
+.custom-blue-dark{
+    background-color: #0079bc !important;
+}
+
+.custom-blue-ligth{
+    background-color: #6dd9ff !important;
+}
+
+#content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+body{
+	position: relative;
+	min-height: 61vh;
+}
+
+footer.page-footer{
+	position: absolute;
+    bottom: -262px;
+    right: 0;
+    left: 0;
+}
+
+.dataTables_wrapper select.form-control
+{
+    padding: 0px!important;
+}
+
+.container-categories, .container-categories h4 {
+    font-weight: bold;
+}
+
+.container-categories .col-8 .row {
+    margin-bottom: 0px;
+}
+
+.btn-rulinb{
+    background-color: #f07748;
+}
+.btn-rulinb:hover{
+    background-color: #efa76d;
+}
+
+.box {
+    position: relative;
+}
+.ribbon {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#efa76d 0%, #F07748 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; right: -21px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid #F07748;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #F07748;
+}
+.ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #F07748;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #F07748;
+}
+
+.sticker {
+    position:relative;
+}
+.notify-badge{
+    position: absolute;
+    left:10px;
+    bottom:10px;
+    background:red;
+    text-align: center;
+    border-radius: 50%;
+    color:white;
+    padding:25px 10px;
+    font-size:20px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+}
+
+.same-category{
+    margin-left: 60px;
+    margin-right: 60px;
+}

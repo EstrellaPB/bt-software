@@ -1,0 +1,46 @@
+.connectedSortable{
+	padding: 10px 20px;
+}
+
+.expired{
+	border-color:#b71c1c!important;
+	background-color: #ffcdd2!important;
+}
+
+.body-message {
+	padding: 10px;
+	height: 100%;
+}
+
+.body-message [class^='col-xs']{
+	height: 40%;
+}
+
+.pubTitle {
+	position: absolute;
+	bottom: 0;
+}
+
+.body-message h3{
+	font-weight: bold;
+}
+
+#mensajes_items, #mensajes_items ul{
+	max-height: 58vh;
+}
+
+#mensajes_items ul{
+	overflow-y: scroll;
+
+}
+
+.img-message {
+	padding: 20px;
+}
+
+.connectedSortable li{
+	height: 120px;
+	list-style: none;
+	background-color: #ffffff;
+    border-color: #e7eaec;
+}
